@@ -34,7 +34,7 @@ int main(){
        }
         else if (x=='/'){
             if (n2==0){
-                cout<<"0"<<endl;
+                cout<<"infinity"<<endl;
             } else{
                 cout<<"n1/n2"<<endl;
             }
