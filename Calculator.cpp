@@ -36,7 +36,7 @@ int main(){
             if (n2==0){
                 cout<<"infinity"<<endl;
             } else{
-                cout<<"n1/n2"<<endl;
+                cout<<n1/n2<<endl;
             }
         }
         else{
