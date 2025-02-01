@@ -8,31 +8,31 @@ int main(){
     cout<<"Enter second number : ";
     cin>>n2;
 
-    cout<<"Press a for addition"<<endl;
-     cout<<"Press s for subtraction"<<endl;
-      cout<<"Press m for multiplication"<<endl;
-       cout<<"Press d for division"<<endl;
+    cout<<"Press + for addition"<<endl;
+     cout<<"Press - for subtraction"<<endl;
+      cout<<"Press * for multiplication"<<endl;
+       cout<<"Press / for division"<<endl;
        
 
        char x;
        cin>>x;
 
-       if (x=='a'){
+       if (x=='+'){
         cout<<n1+n2<<endl;
        }
 
-       else if(x=='s'){
+       else if(x=='-'){
         cout<<n1-n2<<endl;
        }
 
-       else if(x=='m'){
+       else if(x=='*'){
         if(n1==0 || n2==0){
             cout<<"0"<<endl;
         } else{
             cout<<n1*n2<<endl;
         }
        }
-        else if (x=='d'){
+        else if (x=='/'){
             if (n2==0){
                 cout<<"0"<<endl;
             } else{
