@@ -27,14 +27,14 @@ int main(){
 
        else if(x=='m'){
         if(n1==0 || n2==0){
-            cout<<"Error: cannot multiply by zero!"<<endl;
+            cout<<"0"<<endl;
         } else{
             cout<<n1*n2<<endl;
         }
        }
         else if (x=='d'){
             if (n2==0){
-                cout<<"Error: cannot be divisible"<<endl;
+                cout<<"0"<<endl;
             } else{
                 cout<<"n1/n2"<<endl;
             }
