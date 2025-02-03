@@ -1,9 +1,8 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main(){
-    int a;
-    int b;
-    int c;
+    int a,b,c;
     cout<<"Enter the value of a : ";
     cin>>a;
     cout<<"Enter the value of b : ";
@@ -11,8 +10,15 @@ int main(){
     cout<<"Enter the value of c : ";
     cin>>c;
 
+    float x1, x2;
 
-    float x = -b +- 1/2*(b*b-4*a*c)/2*a;
-    cout<<x;
-
+    float discriminant = b*b-4*a*c;
+    if (discriminant<0){
+        cout<<"No real solutions"<<endl;
+    }else{
+        float x1 = (-b + sqrt(discriminant))/(2*a);
+        float x2 = (-b - sqrt(discriminant))/(2*a);
+    }
+    cout<< x1 <<endl;
+    cout<< x2 <<endl;
 }
